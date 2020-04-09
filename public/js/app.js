@@ -11,7 +11,6 @@ weatherForm.addEventListener('submit', (e) => {
     
     const location = search.value;
 
-
     if(location === ''){
         messageOne.textContent = 'Fill the search field first.';
     }else{
