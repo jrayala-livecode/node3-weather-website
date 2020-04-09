@@ -38,7 +38,7 @@ app.get('/about',(req,res) => {
 app.get('/help',(req,res) => {
     res.render('help',{
         title: 'Ayuda',
-        example: 'Aplicación de clima creada usando Node.js y Express, en conjunto con la API Darksky y Mapbox siguiendo el curso de Node.js de Andrew Mead en Udemy',
+        example: 'Trata de especificar la búsqueda si no obtienes la dirección correcta en el primer intento.',
         name: 'Joaquín Ayala'
     })
 });
