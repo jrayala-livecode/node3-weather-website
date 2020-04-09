@@ -62,8 +62,8 @@ app.get('/weather',(req,res) => {
                 })
             }
             res.send({
-                location: location,
-                forecast: data
+                location: 'Dirección escogida : '+location,
+                forecast: 'Pronóstico del día : '+data
             })
         });
 
